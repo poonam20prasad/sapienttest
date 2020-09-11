@@ -78,12 +78,18 @@
 			.data{
 				color:gray;
 			}
+			button{
+				background:#c9df8a;
+			}
+			button:hover  {
+			  background:#77ab59;
+			}
 			@media screen and (max-width: 700px)  {
 			  .filters{
 					float:left;
 					margin:5px;
 					padding:10px;
-					width: 100%;
+					width: 73%;
 					text-align: justify; 
 					background:white;
 				}
@@ -101,7 +107,7 @@
 					float:left;
 					margin:5px;
 					padding:10px;
-					width: 40%;
+					width: 20%;
 					text-align: justify; 
 					background:white;
 				}
@@ -109,7 +115,7 @@
 					float:left;
 					margin:5px;
 					padding:5px;
-					width: 40%;
+					width: 80%;
 					text-align: justify; 
 					background:white;
 				}
