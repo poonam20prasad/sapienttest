@@ -236,7 +236,7 @@
 					$("#filterapplied").css("display", "block");
 					api_path=api_path+'&launch_success='+launch;
 				}
-				alert(api_path);
+				//alert(api_path);
 				
 				getContent(api_path);
 			}
