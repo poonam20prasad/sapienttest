@@ -42,13 +42,13 @@
 				float:left;
 				margin:5px;
 				padding:5px;
-				width: 18%;
+				width: 22%;
 				text-align: justify; 
 				background:white;
 			}
 			.content{
 				float:left;
-				width: 80%;
+				width: 75%;
 				
 			}
 			body,.container{
@@ -92,6 +92,50 @@
 					margin:5px;
 					padding:5px;
 					width: 100%;
+					text-align: justify; 
+					background:white;
+				}
+			}
+			@media only screen and (max-width:1024px) and (min-width: 700px)  {
+			  .filters{
+					float:left;
+					margin:5px;
+					padding:10px;
+					width: 40%;
+					text-align: justify; 
+					background:white;
+				}
+				.spaceinfo{
+					float:left;
+					margin:5px;
+					padding:5px;
+					width: 40%;
+					text-align: justify; 
+					background:white;
+				}
+			}
+			@media only screen and (max-width:1440px) and (min-width: 10400px)  {
+			  .spaceinfo{
+					float:left;
+					margin:5px;
+					padding:5px;
+					width: 22%;
+					text-align: justify; 
+					background:white;
+				}
+				.content{
+					float:left;
+					width: 80%;
+					
+				}
+				body,.container{
+					background:grey;
+				}
+				.filters{
+					float:left;
+					margin:5px;
+					padding:10px;
+					width: 150px;
 					text-align: justify; 
 					background:white;
 				}
